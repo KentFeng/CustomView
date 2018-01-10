@@ -41,7 +41,7 @@ public class DrawLine extends View {
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
 
-        canvas.drawCircle(300,300,230,mPaint);
+        canvas.drawCircle(300,300,230,mPaint);  // thanks
         canvas.drawText("I am ten",280,30,mPaint);
         canvas.drawBitmap(BitmapFactory.decodeResource(getResources(),R.mipmap.ic_launcher_round),430,20,mPaint);
     }
